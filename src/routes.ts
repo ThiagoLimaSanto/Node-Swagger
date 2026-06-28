@@ -28,6 +28,7 @@ export async function routes(app: FastifyTypedInstance) {
       return users;
     },
   );
+  
 
   app.post(
     "/users",
